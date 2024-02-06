@@ -1,16 +1,16 @@
 .footer {
-  padding: 50px 80px;
+  padding: 20px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   @include desktop {
-    padding: 50px;
+    padding: 20px;
   }
   @include weird-medium {
     display: block;
   }
   @include mobile {
-    padding: 50px 30px;
+    padding: 20px 30px; /* Adjust as needed */
   }
   &__copyright {
     font-weight: 700;
